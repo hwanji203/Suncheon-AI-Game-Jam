@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493de0364a7d71c44912f8c7adfe3f25, type: 3}
+  m_Name: RankBarListSO
+  m_EditorClassIdentifier: 
+  list:
+  - {fileID: 11400000, guid: bb26c7d7157629948a2474c6df47705c, type: 2}
+  - {fileID: 11400000, guid: 3e0b1cdfe19bd0149b578e01030ff479, type: 2}
+  - {fileID: 11400000, guid: 17b9d7bb97084784ab0f16e9cf42efb5, type: 2}
+  - {fileID: 11400000, guid: 256f693dc0ddda042bd80556db88c1d7, type: 2}
