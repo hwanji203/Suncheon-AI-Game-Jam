@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3227914067423764271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1761982054187143446}
+  - component: {fileID: 4223290785768176140}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1761982054187143446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227914067423764271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4223290785768176140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227914067423764271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0abef2fc7df75c742a3ec3731c236da6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdPrefabs:
+  - type: 0
+    prefab: {fileID: 2335891291860310780, guid: 3e2f8c7503b1da543a3a77d860939aeb, type: 3}
+  - type: 1
+    prefab: {fileID: 5488157155479756605, guid: ba3ec12559ddc3947a9703833d869634, type: 3}
+  - type: 2
+    prefab: {fileID: 7679001501170034141, guid: e7e1111d11fd18b4b8a5f88448617736, type: 3}
+  - type: 3
+    prefab: {fileID: 516484525111416477, guid: 3e289f2dafc142e46935915bc4f808fb, type: 3}
+  - type: 4
+    prefab: {fileID: 5525018409831383827, guid: d37e629778d95c14cb658954e7d27daa, type: 3}
+  playerTransform: {fileID: 0}
+  horizontalSpacing: 1.2
+  depthSpacing: 1.5
+  moveTime: 0.1
+  maxTiltAngle: 20
+  rotationDelay: 0.08
+  gameSceneUI: {fileID: 0}
+  deadUI: {fileID: 0}
+  victoryUI: {fileID: 0}
+  controller: {fileID: 0}
+  totalCount: 0
